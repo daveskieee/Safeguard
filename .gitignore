@@ -1,0 +1,37 @@
+node_modules/
+*.db
+*.sqlite3
+dist/
+build/
+.env
+.env.local
+.DS_Store
+*.log
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Frontend
+frontend/build/
+frontend/.cache/
+frontend/public/service-worker.js
+
+# Backend
+backend/logs/
+backend/uploads/
+backend/.sqlite3
+backend/hydroguard.db
+
+# Hardware
+hardware/.pio/
+hardware/build/
+hardware/.clang_complete
+hardware/.gcc-flags.json
+hardware/.gch_project_fix_cwd
+
+# OS
+Thumbs.db
+.AppleDouble
+.LSOverride
